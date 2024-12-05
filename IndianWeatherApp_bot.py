@@ -5,11 +5,11 @@ from datetime import datetime
 from telebot import types
 
 # Initialize bot with your token
-BOT_TOKEN = "7656804706:AAElQIfN4R0uAp3MBJUyykmbCXpH-sVeOWE"  # Replace with your actual bot token
+BOT_TOKEN = "YOUR TELEGRAM BOT TOKEN HERE"  # Replace with your actual bot token
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # OpenWeather API configuration
-API_KEY = "a45a9b870be63abff29076c3b761d33f"  # Using the same API key from WeatherApp
+API_KEY = "OpenWeather API Key"  # PASTE YOUR OPENWEATHERAPP API KEY HERE
 BASE_URL = "http://api.openweathermap.org/data/2.5/forecast"
 CURRENT_URL = "http://api.openweathermap.org/data/2.5/weather"
 AQI_URL = "http://api.openweathermap.org/data/2.5/air_pollution"
